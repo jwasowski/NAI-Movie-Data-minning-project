@@ -1,6 +1,5 @@
-import argparse, re, io, json, csv
+import argparse, re, io
 import numpy as np
-import pandas as pd
 
 
 # Compute the Euclidean distance score between user1 and user2 

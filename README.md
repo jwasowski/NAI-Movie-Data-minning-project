@@ -5,7 +5,7 @@ Based on fixed numer of three people that have highest score similairity, script
 
 ### Requirements
 ```
-Python 3.7
+Anaconda (Python 3.7) or Python 3.7
 Python IDE (for development)
 CSV data file
 
@@ -30,11 +30,20 @@ Some Person2,Some Group,Komando,7,Uciekinier,8,Upadek,9,Armia ciemności,8,Flash
 
 To run script use following syntax in Python console <br />
 ```
-
+In Spyder IDE (Anaconda):
 runfile('disk:\path\to\script\main.py', args='--user "some person"', wdir='disk:\path\to\script\')
 
 Example usage:
 runfile('D:/Informatyka/NAI/lab4/main.py', args='--user "Some Person"', wdir='D:/Informatyka/NAI/lab4')
+
+In Anaconda terminal (use it inside folder containing script):
+python main.py --user "Paweł Czapiewski"
+
+In PyCharm IDE (Python):
+main.py --user "Some Person"
+
+In Python terminal (not tested, but it should work):
+python main.py --user "Paweł Czapiewski"
 
 ```
 
